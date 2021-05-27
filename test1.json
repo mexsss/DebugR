@@ -1,51 +1,34 @@
 {
-2  "type": "vbox",
-3  "title": "ТЕСТЫ",
-4  "date": "2019-06-13 10:30:45+0500",
-5  "items": [
-6    {
-7      "type": "hbox",
-8      "items": [
-9        {
-10          "type": "text",
-11          "text_color": "cold_3",
-12          "text": "ТЕСТЫ",
-13          "font_name": "ProximaNova-Bold",
-14          "text_size": 11
-15        },
-16        {
-17          "type": "spacer",
-18          "weight": 1
-19        },
-20        {
-21          "type": "text",
-22          "text_color": "black_50",
-23          "text": "10:30",
-24          "text_size": 9,
-25          "text_alignment": "right"
-26        }
-27      ]
-28    },
-29    {
-30      "type": "text",
-31      "text": "Не по себе, когда смартфона\nнет рядом?",
-32      "text_alignment": "right",
-33      "font_name": "ProximaNova-Bold",
-34      "line_height": 32,
-35      "text_size": 24,
-36      "text_color": "black"
-37    }
-38  ],
-39  "margin": {
-40    "left": 16,
-41    "right": 16
-42  },
-43  "spacing": 16,
-44  "time_color": "black_50",
-45  "component_style": {
-46    "background_color": "#ffffff",
-47    "corner_radius": 4
-48  },
-49  "padding": 16,
-50  "title_color": "cold_3"
-51}
+    "type": "message.white.cold_3_title",
+    "title": "ТЕСТЫ",
+    "date": "2019-06-13 10:30:45+0500",
+    "contents_gravity": "end",
+    "details_color": "cold_3",
+    "items": [
+        {
+          "type": "title.text_align_right",
+          "text": "Не по себе, когда смартфона\nнет рядом?"
+        },
+        {
+          "type": "text.body.text_align_right",
+          "text": "Возможно, у вас\nзависимость. Пройдите\nтест и узнайте, есть ли\nповод для беспокойства."
+        },
+        {
+          "type": "button.text",
+          "text": "Пройти тест",
+          "text_color": "cold_3"
+        }
+    ],
+    "share_button": {
+      "type": "alert",
+      "title": "Share"
+    },
+    "like_button": {
+      "type": "alert",
+      "title": "Like"
+    },
+    "details_button": {
+      "type": "alert",
+      "title": "Details"
+    }
+  }
