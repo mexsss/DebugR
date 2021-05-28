@@ -1,0 +1,270 @@
+{
+    "success": true,
+    "result": {
+        "id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+        "to": 1577394,
+        "url": "welltory://branch/Measurement/Start",
+        "from": "Welltory",
+        "site": "https://welltory.com/",
+        "type": "Welltory Message",
+        "title": "Основные показатели в порядке",
+        "views": [
+            "VIEW_SR",
+            "VIEW_LR",
+            "VIEW_LV"
+        ],
+        "content": [
+            {
+                "id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                "date": "2020-10-07T16:12:25+00:00",
+                "type": "message",
+                "items": [
+                    {
+                        "type": "hbox",
+                        "items": [
+                            {
+                                "type": "hbox",
+                                "items": [
+                                    {
+                                        "type": "spacer",
+                                        "weight": 1
+                                    },
+                                    {
+                                        "type": "vbox",
+                                        "items": [
+                                            {
+                                                "id": "155604b8-08b7-11eb-8b4e-f32098c69018_bp_systolic_diastolic_pressure_counter",
+                                                "type": "pressure_counter",
+                                                "systolic": 120,
+                                                "diastolic": 80
+                                            },
+                                            {
+                                                "type": "spacer",
+                                                "height": 16
+                                            },
+                                            {
+                                                "text": "Давление",
+                                                "type": "text.subhead_white",
+                                                "text_alignment": "center"
+                                            },
+                                            {
+                                                "id": "155604b8-08b7-11eb-8b4e-f32098c69018_bp_label_conclusion",
+                                                "text": "<em color='green'>нормальное</em>",
+                                                "type": "text.subhead_white",
+                                                "text_alignment": "center"
+                                            }
+                                        ],
+                                        "width": 150
+                                    },
+                                    {
+                                        "type": "spacer",
+                                        "weight": 1
+                                    }
+                                ],
+                                "weight": 1
+                            },
+                            {
+                                "type": "hbox",
+                                "items": [
+                                    {
+                                        "type": "spacer",
+                                        "weight": 1
+                                    },
+                                    {
+                                        "type": "vbox",
+                                        "items": [
+                                            {
+                                                "id": "155604b8-08b7-11eb-8b4e-f32098c69018_bp_indication",
+                                                "type": "circle_counter",
+                                                "total": 5,
+                                                "height": 110,
+                                                "progress": 2,
+                                                "progress_color": "red"
+                                            },
+                                            {
+                                                "type": "spacer",
+                                                "height": 16
+                                            },
+                                            {
+                                                "text": "Индексы",
+                                                "type": "text.subhead_white",
+                                                "text_alignment": "center"
+                                            },
+                                            {
+                                                "id": "155604b8-08b7-11eb-8b4e-f32098c69018_bp_indexes",
+                                                "text": "<em color='red'>не в норме</em>",
+                                                "type": "text.subhead_white",
+                                                "text_alignment": "center"
+                                            }
+                                        ],
+                                        "width": 150
+                                    },
+                                    {
+                                        "type": "spacer",
+                                        "weight": 1
+                                    }
+                                ],
+                                "margin": {
+                                    "top": 4
+                                },
+                                "weight": 1
+                            }
+                        ],
+                        "margin": {
+                            "top": 20
+                        },
+                        "onboarding": {
+                            "id": "03.01.01_detail",
+                            "text": "Подробный анализ давления",
+                            "type": "onboarding",
+                            "priority": 1,
+                            "idle_time": 3000,
+                            "target_id": "onb_03.01.01",
+                            "text_position": "left"
+                        }
+                    },
+                    {
+                        "text": "Основные показатели в порядке",
+                        "type": "title.basic_title_white",
+                        "margin": {
+                            "top": 24,
+                            "bottom": 4
+                        }
+                    },
+                    {
+                        "id": "155604b8-08b7-11eb-8b4e-f32098c69018_bp_conclusion",
+                        "text": "Все основные параметры вашего давления в норме: систолическое, диастолическое, среднее давление за сердечный цикл, а также пульсовое. Это хороший результат. При этом индексы могут выходить за пределы нормы, потому что они учитывают не только давление, но и другие параметры, которые сейчас могут быть выше или ниже необходимого.",
+                        "type": "text.body_white"
+                    },
+                    {
+                        "type": "spacer",
+                        "height": 12
+                    }
+                ],
+                "title": "артериальное давление",
+                "details": "подробнее >",
+                "spacing": 0,
+                "bordered": true,
+                "time_style": "body_grey_6_40",
+                "like_button": {
+                    "message_type": "blood_pressure",
+                    "analytics_event": {
+                        "name": "Message_Loved",
+                        "params": {
+                            "type": "blood_pressure",
+                            "title": "Артериальное давление",
+                            "button": "подробнее",
+                            "channel": "ch_data",
+                            "rule_id": 4,
+                            "user_id": 1577394,
+                            "sub_type": "with_heart_rate",
+                            "timestamp": 1602087145000,
+                            "has_detail": true,
+                            "message_id": 300,
+                            "message_code": "03.01.01",
+                            "message_slug": "03.01.01_bd_pressure_message",
+                            "operation_id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                            "environment_id": 1
+                        }
+                    },
+                    "message_sub_type": "with_heart_rate"
+                },
+                "title_style": "body_grey_6_40",
+                "share_button": {
+                    "text": "",
+                    "type": "share",
+                    "locale": "ru",
+                    "message_id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                    "message_type": "blood_pressure",
+                    "image_enabled": true,
+                    "analytics_event": {
+                        "name": "Message_Shared",
+                        "params": {
+                            "type": "blood_pressure",
+                            "title": "Артериальное давление",
+                            "button": "подробнее",
+                            "channel": "ch_data",
+                            "rule_id": 4,
+                            "user_id": 1577394,
+                            "sub_type": "with_heart_rate",
+                            "timestamp": 1602087145000,
+                            "has_detail": true,
+                            "message_id": 300,
+                            "message_code": "03.01.01",
+                            "message_slug": "03.01.01_bd_pressure_message",
+                            "operation_id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                            "environment_id": 1
+                        }
+                    },
+                    "message_sub_type": "with_heart_rate"
+                },
+                "details_style": "body_white_1_70",
+                "details_button": {
+                    "url": "https://s-nf-storage.welltory.com/api/v1/view/155604b8-08b7-11eb-8b4e-f32098c69018/",
+                    "type": "open",
+                    "variant": "transition",
+                    "onboarding": {
+                        "id": "onb_03.01.01",
+                        "type": "anchor"
+                    },
+                    "state_keys": {
+                        "WTOnboardingState": "03.01.01_detail"
+                    },
+                    "message_type": "blood_pressure",
+                    "transition_id": "155604b8-08b7-11eb-8b4e-f32098c69018_message_body",
+                    "analytics_event": {
+                        "name": "Message_Details",
+                        "params": {
+                            "type": "blood_pressure",
+                            "title": "Артериальное давление",
+                            "button": "подробнее",
+                            "channel": "ch_data",
+                            "rule_id": 4,
+                            "user_id": 1577394,
+                            "sub_type": "with_heart_rate",
+                            "timestamp": 1602087145000,
+                            "has_detail": true,
+                            "message_id": 300,
+                            "message_code": "03.01.01",
+                            "message_slug": "03.01.01_bd_pressure_message",
+                            "operation_id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                            "environment_id": 1
+                        }
+                    },
+                    "message_sub_type": "with_heart_rate",
+                    "destination_color": "ink"
+                }
+            }
+        ],
+        "version": "0.0.1",
+        "category": "common",
+        "analytics": {
+            "data": {
+                "type": "blood_pressure",
+                "title": "Артериальное давление",
+                "button": "подробнее",
+                "channel": "ch_data",
+                "rule_id": 4,
+                "user_id": 1577394,
+                "sub_type": "with_heart_rate",
+                "timestamp": 1602087145000,
+                "has_detail": true,
+                "message_id": 300,
+                "message_code": "03.01.01",
+                "message_slug": "03.01.01_bd_pressure_message",
+                "operation_id": "155604b8-08b7-11eb-8b4e-f32098c69018",
+                "environment_id": 1
+            },
+            "event": "Message_Viewed"
+        },
+        "generator": "Welltory Inc.",
+        "description": "",
+        "message_time": 1602087145000,
+        "message_type": "blood_pressure",
+        "generator_key": "a9226e6c2c6db588945486d11977ab61",
+        "message_sub_type": "with_heart_rate",
+        "short_description": "Все основные параметры вашего давления в норме: систолическое, диастолическое, среднее давление за сердечный цикл, а также пульсовое. Это хороший результат. Пр…",
+        "generator_timestamp": 1602087171000,
+        "class": "newsfeed"
+    }
+}
