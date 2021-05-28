@@ -1,4 +1,10 @@
 {
+  "success": true,
+  "result": {
+    "title": "Charts",
+    "class": "newsfeed",
+    "content": [
+{
     "type": "message.white.cold_3_title",
     "title": "ТЕСТЫ",
     "date": "2019-06-13 10:30:45+0500",
@@ -32,3 +38,4 @@
       "title": "Details"
     }
   }
+]}}
