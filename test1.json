@@ -135,16 +135,6 @@
                     "destination_color": "ink"
                 },
                 "background_color": "dinner",
-                "background_image": {
-                    "url": "https://ucarecdn.com/582a75be-ff54-4a8b-b00a-9a0448e492f3/",
-                    "width": 350,
-                    "height": 650,
-                    "scale_type": [
-                        "fill"
-                    ],
-                    "uploadcare_id": "582a75be-ff54-4a8b-b00a-9a0448e492f3",
-                    "original_file_url": null
-                },
                 "contents_gravity": "end"
             }
         ],
