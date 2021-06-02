@@ -1,0 +1,194 @@
+{
+    "success": true,
+    "result": {
+        "id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+        "to": 262814,
+        "url": "welltory://branch/Measurement/Start",
+        "from": "Welltory",
+        "site": "https://welltory.com/",
+        "type": "Welltory Message",
+        "title": "",
+        "views": [
+            "VIEW_SR",
+            "VIEW_LR",
+            "VIEW_LV"
+        ],
+        "content": [
+            {
+                "date": "2021-06-02T08:19:23+00:00",
+                "mode": "light",
+                "type": "message.white",
+                "items": [
+                    {
+                        "text": "Some glass\nshapes\nmake you\ndrink faster",
+                        "type": "smart_header",
+                        "align": "left",
+                        "colors": [
+                            "ink"
+                        ]
+                    },
+                    {
+                        "text": "Researchers from the University of Bristol found that the shape of your glass can affect how quickly you drink. The experiment showed that people who drank out of straight, tall glasses drank 60% slower than people who drank out of curved glasses, and ended up drinking less. We're better at gauging how much we've consumed in a straight glass, and better at controlling how much we drink throughout the night. So if you want to drink less, go with a straight glass.",
+                        "type": "text.body_ink",
+                        "text_alignment": "center"
+                    }
+                ],
+                "title": "Did you know?",
+                "details": "source",
+                "spacing": 0,
+                "time_style": "body_black",
+                "like_button": {
+                    "message_type": "recommendation",
+                    "analytics_event": {
+                        "name": "Message_Loved",
+                        "params": {
+                            "type": "recommendation",
+                            "title": "Some glass shapes make you drink faster",
+                            "button": "source",
+                            "channel": "ch_data",
+                            "rule_id": 3,
+                            "user_id": 262814,
+                            "category": [
+                                "ADDICTION"
+                            ],
+                            "group_id": "qa_unique_id_1622612963.856183",
+                            "sub_type": "funfact",
+                            "timestamp": 1622621963000,
+                            "with_push": false,
+                            "has_detail": false,
+                            "message_id": 201,
+                            "message_code": "05.02.02",
+                            "message_slug": "365_facts",
+                            "operation_id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+                            "environment_id": 2
+                        }
+                    },
+                    "message_sub_type": "funfact"
+                },
+                "title_style": "capslock_title_snack",
+                "share_button": {
+                    "text": "",
+                    "type": "share",
+                    "locale": "en_us",
+                    "message_id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+                    "message_type": "recommendation",
+                    "image_enabled": true,
+                    "analytics_event": {
+                        "name": "Message_Shared",
+                        "params": {
+                            "type": "recommendation",
+                            "title": "Some glass shapes make you drink faster",
+                            "button": "source",
+                            "channel": "ch_data",
+                            "rule_id": 3,
+                            "user_id": 262814,
+                            "category": [
+                                "ADDICTION"
+                            ],
+                            "group_id": "qa_unique_id_1622612963.856183",
+                            "sub_type": "funfact",
+                            "timestamp": 1622621963000,
+                            "with_push": false,
+                            "has_detail": false,
+                            "message_id": 201,
+                            "message_code": "05.02.02",
+                            "message_slug": "365_facts",
+                            "operation_id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+                            "environment_id": 2
+                        }
+                    },
+                    "extra_info_type": "just_logo",
+                    "message_sub_type": "funfact",
+                    "extra_info_enabled": true
+                },
+                "details_style": "text_button_snack",
+                "details_button": {
+                    "type": "open",
+                    "variant": "modal",
+                    "message_type": "recommendation",
+                    "web_view_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043007",
+                    "analytics_event": {
+                        "name": "Reference_Clicked",
+                        "params": {
+                            "type": "recommendation",
+                            "title": "Some glass shapes make you drink faster",
+                            "button": "source",
+                            "channel": "ch_data",
+                            "rule_id": 3,
+                            "user_id": 262814,
+                            "category": [
+                                "ADDICTION"
+                            ],
+                            "group_id": "qa_unique_id_1622612963.856183",
+                            "sub_type": "funfact",
+                            "timestamp": 1622621963000,
+                            "with_push": false,
+                            "has_detail": false,
+                            "message_id": 201,
+                            "message_code": "05.02.02",
+                            "message_slug": "365_facts",
+                            "operation_id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+                            "environment_id": 2
+                        }
+                    },
+                    "message_sub_type": "funfact",
+                    "destination_color": "ink"
+                },
+                "background_color": "dinner",
+                "background_image": {
+                    "url": "https://ucarecdn.com/582a75be-ff54-4a8b-b00a-9a0448e492f3/",
+                    "width": 350,
+                    "height": 650,
+                    "scale_type": [
+                        "fill"
+                    ],
+                    "uploadcare_id": "582a75be-ff54-4a8b-b00a-9a0448e492f3",
+                    "original_file_url": null
+                },
+                "contents_gravity": "end"
+            }
+        ],
+        "version": "0.0.1",
+        "category": "common",
+        "chain_id": null,
+        "analytics": {
+            "data": {
+                "type": "recommendation",
+                "title": "Some glass shapes make you drink faster",
+                "button": "source",
+                "actions": [],
+                "channel": "ch_data",
+                "rule_id": 3,
+                "user_id": 262814,
+                "category": [
+                    "ADDICTION"
+                ],
+                "group_id": "qa_unique_id_1622612963.856183",
+                "has_like": true,
+                "sub_type": "funfact",
+                "has_image": false,
+                "has_share": true,
+                "timestamp": 1622621963000,
+                "with_push": false,
+                "has_detail": true,
+                "message_id": 201,
+                "message_code": "05.02.02",
+                "message_slug": "365_facts",
+                "operation_id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
+                "environment_id": 2,
+                "has_external_link": false
+            },
+            "event": "Message_Viewed"
+        },
+        "generator": "Welltory Inc.",
+        "description": "",
+        "default_view": "body",
+        "message_time": 1622621963000,
+        "message_type": "recommendation",
+        "generator_key": "a9226e6c2c6db588945486d11977ab61",
+        "message_sub_type": "funfact",
+        "short_description": "",
+        "generator_timestamp": 1622612965000,
+        "class": "newsfeed"
+    }
+}
