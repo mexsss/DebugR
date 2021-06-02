@@ -173,12 +173,12 @@
         "generator": "Welltory Inc.",
         "description": "",
         "default_view": "body",
-        "message_time": 1622621966000,
+        "message_time": 1622621967000,
         "message_type": "recommendation",
-        "generator_key": "a9226e6c2c6db588945486d11977ab61",
+        "generator_key": "a9226e6c2c6db588945486d11977ab62",
         "message_sub_type": "funfact",
         "short_description": "",
-        "generator_timestamp": 1622612965000,
+        "generator_timestamp": 1622612966000,
         "class": "newsfeed"
     }
 }
