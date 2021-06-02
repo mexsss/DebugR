@@ -1,7 +1,7 @@
 {
     "success": true,
     "result": {
-        "id": "18b27ba4-c366-11eb-bd7a-8beb0c24706d",
+        "id": "18b27ba4-c366-11eb-bd7a-8beb0c24709d",
         "to": 262814,
         "url": "welltory://branch/Measurement/Start",
         "from": "Welltory",
@@ -15,7 +15,7 @@
         ],
         "content": [
             {
-                "date": "2021-06-02T08:24:23+00:00",
+                "date": "2021-06-02T08:19:23+00:00",
                 "mode": "light",
                 "type": "message.white",
                 "items": [
@@ -24,7 +24,7 @@
                         "type": "smart_header",
                         "align": "left",
                         "colors": [
-                            "white"
+                            "ink"
                         ]
                     },
                     {
@@ -135,6 +135,16 @@
                     "destination_color": "ink"
                 },
                 "background_color": "dinner",
+                "background_image": {
+                    "url": "https://ucarecdn.com/582a75be-ff54-4a8b-b00a-9a0448e492f3/",
+                    "width": 350,
+                    "height": 650,
+                    "scale_type": [
+                        "fill"
+                    ],
+                    "uploadcare_id": "582a75be-ff54-4a8b-b00a-9a0448e492f3",
+                    "original_file_url": null
+                },
                 "contents_gravity": "end"
             }
         ],
@@ -173,12 +183,12 @@
         "generator": "Welltory Inc.",
         "description": "",
         "default_view": "body",
-        "message_time": 1622621967000,
+        "message_time": 1622621963000,
         "message_type": "recommendation",
-        "generator_key": "a9226e6c2c6db588945486d11977ab62",
+        "generator_key": "a9226e6c2c6db588945486d11977ab61",
         "message_sub_type": "funfact",
         "short_description": "",
-        "generator_timestamp": 1622612966000,
+        "generator_timestamp": 1622612965000,
         "class": "newsfeed"
     }
 }
