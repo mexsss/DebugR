@@ -16,8 +16,8 @@
         "content": [
             {
                 "date": "2021-06-02T08:23:23+00:00",
-                "mode": "dark",
-                "type": "message",
+                "mode": "light",
+                "type": "message.white",
                 "items": [
                     {
                         "text": "Some glass\nshapes\nmake you\ndrink faster",
@@ -173,7 +173,7 @@
         "generator": "Welltory Inc.",
         "description": "",
         "default_view": "body",
-        "message_time": 1622621964000,
+        "message_time": 1622621965000,
         "message_type": "recommendation",
         "generator_key": "a9226e6c2c6db588945486d11977ab61",
         "message_sub_type": "funfact",
